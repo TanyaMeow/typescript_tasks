@@ -1,6 +1,6 @@
 'use script'
 
-// TODO Enum
+// TODO Enum (DONE)
 
 const actionMap: string[] = [
     'add', 'delete', 'update'
@@ -16,7 +16,7 @@ const addMethod:Enum = Enum.ADD;
 const deleteMethod:Enum = Enum.DELETE;
 const updateMethod:Enum = Enum.UPDATE;
 
-// TODO Interface
+// TODO Interface (DONE)
 
 interface Func {
     (id: number, isActive: boolean, callback: () => void): (string | number) [][];
@@ -32,7 +32,7 @@ function func(id: number, isActive: boolean, callback: () => void): (string | nu
 
 func(1, true, (): void => {});
 
-// TODO Interface
+// TODO Interface (DONE)
 interface People {
     id: number,
     name: string,
@@ -56,7 +56,7 @@ const a: People = {
     ]
 };
 
-// Ключ может оказаться любым. Нужно создать интерфейс, описывающий объект n (типизировать ключи и значения)
+// Ключ может оказаться любым. Нужно создать интерфейс, описывающий объект n (типизировать ключи и значения) (DONE)
 
 interface Obj {
     [key: string]: (arg: number) => string
